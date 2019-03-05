@@ -6,4 +6,6 @@ h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
 
-.section-qualifier {font-weight: bold;}
+.section-title {border-bottom: thin solid;}
+.section-qualifier, .section-head {font-weight: bold;}
+.proficiency {font-style: italic;}
