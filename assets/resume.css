@@ -1,11 +1,17 @@
-body { font-family: Georgia; color: #444 }
+body {
+  font-family: Georgia;
+  color: #444;
+  width: 70%; max-width: 900px; margin: 0 auto;
+}
 
-/* //-- core typography and style -- */
-h1 { font-size: 44px; text-transform: uppercase; letter-spacing: 5px; }
-h2 { font-size: 152% }
-h3, h4 { font-size: 122%; }
-h1, h2, h3, h4 { color: #333; }
+h1, h2, h3, h4 { color: #333; margin: 0; }
 
-.section-title {border-bottom: thin solid;}
-.section-qualifier, .section-head {font-weight: bold;}
-.proficiency {font-style: italic;}
+.bio { text-align: center; letter-spacing: 0; }
+.bio h1 { font-size: 200%; margin-top: 2%}
+.bio h2 { font-size: 150%; }
+.contact-info { font-size: 90%; margin-top: 1%; }
+
+.section-title h3 { border-bottom: thin solid; margin-bottom: 0.5%; }
+.section-head { display: flex; justify-content: space-between; }
+.section-qualifier, .section-head { font-weight: bold; }
+.proficiency { font-style: italic; }
