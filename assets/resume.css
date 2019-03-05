@@ -15,3 +15,7 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
 .section-head { display: flex; justify-content: space-between; }
 .section-qualifier, .section-head { font-weight: bold; }
 .proficiency { font-style: italic; }
+
+@media print {
+  .bio h1 { font-size: 500%; }
+}
