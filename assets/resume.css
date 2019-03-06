@@ -12,7 +12,7 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
 .contact-info { font-size: 90%; margin-top: 1%; }
 
 .section-title h3 { border-bottom: thin solid; margin-bottom: 0.5%; }
-.section-head { display: flex; justify-content: space-between; }
+.section-head { display: flex; justify-content: space-evenly; }
 .section-qualifier, .section-head { font-weight: bold; }
 .proficiency { font-style: italic; }
 
