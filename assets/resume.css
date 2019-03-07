@@ -4,37 +4,48 @@ body {
   width: 85%; max-width: 950px; margin: 0 auto;
 }
 
-h1, h2, h3, h4 { color: #333; margin: 0; }
-
 .page {background-color: #FFFFFF; padding: 0px 20px; }
+
+h1, h2, h3, h4 { color: #333; margin: 0; }
 
 .bio { text-align: center; letter-spacing: 0; }
 .bio h1 { font-size: 200%; margin-top: 2%}
 .bio h2 { font-size: 150%; }
 .contact-info { font-size: 90%; margin-top: 1%; }
-.social-media { /*display: flex; /*justify-content: space-evenly;*/ font-size: 70%; }
-.social-media img { max-width: 3%; height: auto; }
 
-.social-media{   
-  /*width: 540px;*/
-  margin-top:1%;
-  margin-left: auto; 
-  margin-right: auto;
-
-  text-align: justify;
+.social-media {
+  display: flex;
+  justify-content: center;
+  font-size: 70%;
 }
 
-.stretch {
-  width: 100%;
-  display: inline-block;
-  font-size: 0;
-  line-height: 0
+.social-media > div {
+  max-width: 100px;
+  margin-right: 20px;
+  margin-top: 5px;
 }
 
-.section-title h3 { border-bottom: thin solid; margin-bottom: 0.5%; font-size: 130%; }
-.section-head { display: flex; justify-content: space-between; font-style: italic; }
+.social-media svg {
+  width: 30%;
+}
+
+.social-media p {
+  text-align: center;
+  margin: 0;
+}
+
+.section-title h3 {
+  border-bottom: thin solid; margin-bottom: 0.5%;
+  font-size: 130%; text-align: left;
+}
+.section-head {
+  display: flex; justify-content: space-between;
+  font-style: italic;
+}
+
 .section-qualifier, .section-head { font-weight: bold; }
 .proficiency { font-style: italic; }
+
 
 @media print {
   body {width: 100%; max-width: none;}
