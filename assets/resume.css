@@ -31,8 +31,8 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
   line-height: 0
 }
 
-.section-title h3 { border-bottom: thin solid; margin-bottom: 0.5%; }
-.section-head { display: flex; justify-content: space-between; }
+.section-title h3 { border-bottom: thin solid; margin-bottom: 0.5%; font-size: 130%; }
+.section-head { display: flex; justify-content: space-between; font-style: italic; }
 .section-qualifier, .section-head { font-weight: bold; }
 .proficiency { font-style: italic; }
 
