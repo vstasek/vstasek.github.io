@@ -10,6 +10,24 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
 .bio h1 { font-size: 200%; margin-top: 2%}
 .bio h2 { font-size: 150%; }
 .contact-info { font-size: 90%; margin-top: 1%; }
+.social-media { /*display: flex; /*justify-content: space-evenly;*/ font-size: 70%; }
+.social-media img { max-width: 3%; height: auto; }
+
+.social-media{   
+  /*width: 540px;*/
+  margin-top:1%;
+  margin-left: auto; 
+  margin-right: auto;
+
+  text-align: justify;
+}
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0
+}
 
 .section-title h3 { border-bottom: thin solid; margin-bottom: 0.5%; }
 .section-head { display: flex; justify-content: space-between; }
