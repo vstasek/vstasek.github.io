@@ -1,16 +1,23 @@
+/*styling for media min-width:900px*/
+
+/* general whole page stylings */
 body {
   font-family: Georgia;
   width: 100%; max-width: none; margin: 0 auto;
 }
 
-.page {background-color: #FFFFFF; padding: 0px 5px; }
+.page { background-color: #FFFFFF; padding: 0px 5px; }
 
 h1, h2, h3, h4 { color: #333; margin: 0; }
+
+/* bio header */
 
 .bio { text-align: center; letter-spacing: 0; }
 .bio h1 { font-size: 200%; margin-top: 2%}
 .bio h2 { font-size: 150%; }
 .contact-info { font-size: 90%; margin-top: 1%; }
+
+/* social media links */
 
 .social-media {
   display: flex;
@@ -32,12 +39,15 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
   margin: 0;
 }
 
+/* sections */
+
 .section { text-align: left; }
 
 .section-title h3 {
   border-bottom: thin solid; margin-bottom: 0.5%;
   font-size: 130%;
 }
+
 .section-head {
   display: flex; justify-content: space-between;
   font-style: italic;
@@ -53,37 +63,43 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
   letter-spacing: -0.05em;
 }
 
- .section-body > ul {
-  padding: 0px 3%;
-}
+.section-body > ul { padding: 0px 3%; }
+.inner { font-size: 100% }
 
-.inner {
-  font-size: 100%
+@media screen and (min-width: 750px) and (max-width: 900px) {
+  /* slightly larger than standard phone */
+  .section-head span{
+    font-size: 90%;
+  }
 }
 
 @media screen and (min-width: 750px) {
+  /* desktop/tablet styling */
+
   body {
   background-color: lightgrey;
   width: 85%; max-width: 950px;
   margin: 0 auto;
   }
 
-  .page { 
-    background-color: #FFFFFF; padding: 0px 20px;
+  .page {
+    background-color: #FFFFFF;
+    padding: 0px 20px;
   }
   
-  .section p, ul, span {	
+  .section p, ul, span {
   font-size: 100%;
   line-height: none;
   letter-spacing: none;
   }
 
-  .section-head {
+  .section-head span {
     font-size:100%;
   }
   
 }
 
 @media print {
+  /* print media - printing to PDF*/
   body { width: 100%; max-width: none; }
 }
