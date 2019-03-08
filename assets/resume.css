@@ -1,7 +1,6 @@
 body {
   font-family: Georgia;
-  background-color: lightgrey;
-  width: 85%; max-width: 950px; margin: 0 auto;
+  width: 95%; max-width: none; margin: 0 auto;
 }
 
 .page {background-color: #FFFFFF; padding: 0px 20px; }
@@ -47,6 +46,18 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
 .section-qualifier, .section-head { font-weight: bold; }
 .proficiency { font-style: italic; }
 
+
+@media screen and (min-width: 800px) {
+  body {
+  background-color: lightgrey;
+  width: 85%; max-width: 950px; margin: 0 auto;
+  }
+
+  .page { 
+    background-color: #FFFFFF; padding: 0px 20px;
+  }
+
+}
 
 @media print {
   body {width: 100%; max-width: none;}
