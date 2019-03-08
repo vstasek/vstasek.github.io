@@ -46,7 +46,7 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
 .section-qualifier, .section-head { font-weight: bold; }
 .proficiency { font-style: italic; }
 
-.section p, ul {	
+.section p, ul, span {	
   font-size:80%;
   line-height: 1.3em;
   letter-spacing: -0.05em;
@@ -63,7 +63,7 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
     background-color: #FFFFFF; padding: 0px 20px;
   }
   
-  .section p, ul {	
+  .section p, ul, span {	
   font-size: 100%;
   line-height: none;
   letter-spacing: none;
