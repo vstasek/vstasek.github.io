@@ -57,7 +57,7 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
 .section-qualifier, .section-head { font-weight: bold; }
 .proficiency { font-style: italic; }
 
-.section p, ul {	
+.section p, ul {
   font-size:80%;
   line-height: 1.3em;
   letter-spacing: -0.05em;
@@ -86,7 +86,7 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
     background-color: #FFFFFF;
     padding: 0px 20px;
   }
-  
+
   .section p, ul, span {
   font-size: 100%;
   line-height: none;
@@ -96,10 +96,10 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
   .section-head span {
     font-size:100%;
   }
-  
+
 }
 
 @media print {
   /* print media - printing to PDF*/
-  body { width: 100%; max-width: none; }
+  body { width: 93%; max-width: none; }
 }
