@@ -56,9 +56,8 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
   .page { 
     background-color: #FFFFFF; padding: 0px 20px;
   }
-
 }
 
 @media print {
-  body {width: 100%; max-width: none;}
+  body { width: 100%; max-width: none; }
 }
