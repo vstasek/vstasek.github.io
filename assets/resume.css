@@ -1,9 +1,9 @@
 body {
   font-family: Georgia;
-  width: 95%; max-width: none; margin: 0 auto;
+  width: 100%; max-width: none; margin: 0 auto;
 }
 
-.page {background-color: #FFFFFF; padding: 0px 20px; }
+.page {background-color: #FFFFFF; padding: 0px 5px; }
 
 h1, h2, h3, h4 { color: #333; margin: 0; }
 
@@ -46,15 +46,27 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
 .section-qualifier, .section-head { font-weight: bold; }
 .proficiency { font-style: italic; }
 
+.section p, ul {	
+  font-size:80%;
+  line-height: 1.3em;
+  letter-spacing: -0.05em;
+}
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 750px) {
   body {
   background-color: lightgrey;
-  width: 85%; max-width: 950px; margin: 0 auto;
+  width: 85%; max-width: 950px;
+  margin: 0 auto;
   }
 
   .page { 
     background-color: #FFFFFF; padding: 0px 20px;
+  }
+  
+  .section p, ul {	
+  font-size: 100%;
+  line-height: none;
+  letter-spacing: none;
   }
 }
 
