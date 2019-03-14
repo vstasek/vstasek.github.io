@@ -102,4 +102,14 @@ h1, h2, h3, h4 { color: #333; margin: 0; }
 @media print {
   /* print media - printing to PDF*/
   body { width: 93%; max-width: none; }
+
+a
+{
+   color:#0000EE;
+   text-decoration: none;
+   background-color: none;
+}
+
+a:hover{text-decoration:none}
+
 }
